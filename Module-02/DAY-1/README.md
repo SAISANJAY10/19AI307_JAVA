@@ -1,34 +1,48 @@
-# Ex.No:2(A)  STATIC METHOD
+# Ex.No:1(A) CLASS & OBJECTS
 
 ## AIM:
-To create a java program for calculate cube of a number using static method.
+To create a class named 'Student' with String variable 'name' and String variable 'address'.
 
 ## ALGORITHM :
-1.  Start : Begin the process of calculating the cube of a number.
-2.	Declare a variable to store input : Declare an integer variable n to hold the number whose cube will be calculated.
-3.	Create a Scanner object : Create a Scanner object (sc) to read the input from the user.
-4.	Read input from the user : Prompt the user to input an integer value. The input value is stored in the variable n.
-5.	Call the cubecal function : Call the function cubecal(n) which computes the cube of the number by performing n * n * n.
-6.	Store the result : Store the result of the cubecal function in an integer variable result.
-7.	Output the result :
-8.	Print the cube of the number using System.out.println("Cube is: " + result);.
-9.	End the program.
-
+1.	Start the program.
+2.	Define a class named 'Student'
+3.	Declare a String variable 'name' and initialize it with the value "John"
+4.	Declare a String variable 'address' and initialize it with the value "Chennai"
+5.	Define a class named 'Test'
+6.	Define the 'main' method within the 'Test' class
+7.	Create an object 'obj' of the 'Student' class
+8.	Print the value of 'name' and 'address' variables of the 'obj' object
+9.	End
 
 
 
 ## PROGRAM:
  ```
 /*
-Program to implement a Static method using Java
-Developed by: 
-RegisterNumber:  
+Program to implement a class & objects using Java
+Developed by: MAALINI B N 
+RegisterNumber:  212224060136
 */
 ```
 
 ## Sourcecode.java:
-
-
+```
+class Student
+{
+    String name;
+    String address;
+}
+public class Main
+{
+    public static void main(String[] args)
+   {
+        Student obj= new Student();        
+        obj.name="John";
+        obj.address="Chennai";
+        System.out.println(obj.name+" "+obj.address);
+    }
+}
+```
 
 
 
@@ -36,8 +50,10 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+<img width="495" height="206" alt="image" src="https://github.com/user-attachments/assets/5d940388-41c8-44cf-8a54-3fd1411c3bf7" />
 
 ## RESULT:
-Thus the java program for calculate cube of a number using static method has been executed successfully.
+Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
 
+## RESULT:
+Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
